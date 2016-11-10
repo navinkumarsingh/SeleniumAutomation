@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GIT_HUB" duration-ms="87989" started-at="2016-11-09T08:29:28Z" finished-at="2016-11-09T08:30:56Z">
+    <groups>
+    </groups>
+    <test name="gitLoginWithInvalidAndValid" duration-ms="87989" started-at="2016-11-09T08:29:28Z" finished-at="2016-11-09T08:30:56Z">
+      <class name="com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid">
+        <test-method status="PASS" signature="initFramewotk()[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="initFramewotk" is-config="true" duration-ms="7178" started-at="2016-11-09T13:59:28Z" finished-at="2016-11-09T13:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramewotk -->
+        <test-method status="PASS" signature="launchCAT()[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="launchCAT" is-config="true" duration-ms="19044" started-at="2016-11-09T13:59:35Z" finished-at="2016-11-09T13:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCAT -->
+        <test-method status="PASS" signature="loadDataProperties()[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="loadDataProperties" is-config="true" duration-ms="1" started-at="2016-11-09T13:59:54Z" finished-at="2016-11-09T13:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDataProperties -->
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="setupLogger" is-config="true" duration-ms="10" started-at="2016-11-09T13:59:54Z" finished-at="2016-11-09T13:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid.launchGITUnsuccessful() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method status="PASS" signature="launchGITUnsuccessful()[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="launchGITUnsuccessful" duration-ms="24687" started-at="2016-11-09T13:59:54Z" finished-at="2016-11-09T14:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGITUnsuccessful -->
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="setupLogger" is-config="true" duration-ms="3" started-at="2016-11-09T14:00:19Z" finished-at="2016-11-09T14:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid.launchGITSuccessfully() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method status="PASS" signature="launchGITSuccessfully()[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="launchGITSuccessfully" duration-ms="35015" started-at="2016-11-09T14:00:19Z" finished-at="2016-11-09T14:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGITSuccessfully -->
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="setupLogger" is-config="true" duration-ms="3" started-at="2016-11-09T14:00:54Z" finished-at="2016-11-09T14:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid.validatingCloseBrowser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method status="PASS" signature="validatingCloseBrowser()[pri:0, instance:com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid@66133adc]" name="validatingCloseBrowser" duration-ms="2027" started-at="2016-11-09T14:00:54Z" finished-at="2016-11-09T14:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingCloseBrowser -->
+      </class> <!-- com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid -->
+    </test> <!-- gitLoginWithInvalidAndValid -->
+  </suite> <!-- GIT_HUB -->
+</testng-results>

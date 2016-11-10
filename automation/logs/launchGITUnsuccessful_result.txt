@@ -1,0 +1,4 @@
+Nov 09, 2016 1:59:54 PM com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid launchGITUnsuccessful
+INFO: Test Purpose: GIT Hub Launch
+Nov 09, 2016 2:00:15 PM com.kodiak.qa.test.kodiak.methods.CATCommonMethods unsuccessfullLoginToGit
+INFO: 'Failed to Login:Incorrect username or password.

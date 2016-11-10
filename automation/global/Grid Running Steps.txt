@@ -1,0 +1,18 @@
+Server:
+java -jar D:\Automation\ExternalSoftwares\selenium-server-standalone-2.46.0.jar -role hub -port 4444
+
+
+Firefox:
+java -jar D:\Automation\ExternalSoftwares\selenium-server-standalone-2.46.0.jar -role webdriver -hub http://localhost:4444/grid/register
+
+
+Hub For IE:
+java -jar D:\Automation\ExternalSoftwares\selenium-server-standalone-2.46.0.jar -role node -hub http://localhost:4444/grid/register -Dwebdriver.ie.driver=D:\Automation\ExternalSoftwares\IEDriverServer.exe  
+
+Hub For Chrome:
+java -jar D:\Automation\ExternalSoftwares\selenium-server-standalone-2.46.0.jar -role node -hub http://localhost:4444/grid/register -Dwebdriver.ie.driver=D:\Automation\ExternalSoftwares\chromedriver.exe  
+
+
+
+java - Dwebdriver.chrome.driver=C:\RVS\Automation\JarFiles\chromedriver\chromedriver.exe -Dwebdriver.ie.driver=C:\RVS\Automation\JarFiles\internetdriver\IEDriverServer.exe -jar selenium-server-standalone-2.30.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5555 -browser browserName=chrome,maxInstances=3, -browser browserName=firefox,maxInstances=3, -browser browserName=iexplore,maxInstances=3 –maxSession 3
+

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GIT_HUB">
+	<listeners>
+		<listener class-name="com.kodiak.qa.customReport.CustomReport" />
+	</listeners>
+	
+	 <test name="gitLoginWithInvalidAndValid">
+		<classes>
+			<class name="com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid" />
+		</classes>
+	</test>
+
+   
+	 
+ </suite> 

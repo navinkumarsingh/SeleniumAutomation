@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="" default="zip" basedir=".">
+	<property file="build.properties" />
+	<target name="clean">
+		<echo message="deleting target directory"/>
+		<delete dir="${destJar}"/>
+	</target>
+	<target name="src" depends="clean">
+		<echo message="creating target directory"/>
+		<mkdir dir="${build}"/>
+	</target>
+	
+	<target name="copy" depends="src">
+		<copy todir="${destJar}">
+			<fileset file="${testngLocation}"/>
+			<fileset file="${catPropLocation}"/>
+			<fileset file="${buildLocation}"/>
+			<fileset file="${seleniumBatchLocation}"/>
+			<fileset file="${ieDriverLoc}"/>
+			<fileset file="${chromeDriverLoc}"/>
+			<fileset file="${logLocation}"/>
+			<fileset file="${ieDriverLoc}"/>
+			<fileset file="${chromeDriverLoc}"/>
+			<fileset file="${logLocation}"/>	
+		</copy>
+	</target>
+	
+	<target name="propcopy" depends="copy">
+		<copy todir="${destJar}/global">
+			<fileset file="${testDataLocation}"/>
+			<fileset file="${gridDataLocation}"/>
+			<fileset file="${globalDataLocation}"/>	
+		</copy>
+	</target>
+	
+	<target name="zip" depends="propcopy">
+		<javac 
+		 includeantruntime="false"
+		 srcdir="${src}"
+         destdir="${build}"
+         classpath="${jarsLocation}/selenium-java-2.47.1.jar;${jarsLocation}/testng-6.8.5.jar;${jarsLocation}/commons-io-2.4.jar;"
+         debug="on"
+         source="1.8"
+		/>
+		<echo message="jar creation starting"/>
+		<jar destfile="${destJar}/${finalJarName}">
+		<fileset dir="${build}"/>
+		<archives>
+			<zips>
+				<fileset dir="${jarsLocation}" includes="**/*.jar" excludes="META-INF/SUN_MICR.RSA, META-INF/SUN_MICR.SF"/>
+			</zips>
+		</archives>
+		</jar>	
+	</target>
+</project>

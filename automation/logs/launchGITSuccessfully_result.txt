@@ -1,0 +1,2 @@
+Nov 09, 2016 2:00:19 PM com.kodiak.qa.testsuites.gitLoginWithInvalidAndValid launchGITSuccessfully
+INFO: Test Purpose: GIT Hub Launch

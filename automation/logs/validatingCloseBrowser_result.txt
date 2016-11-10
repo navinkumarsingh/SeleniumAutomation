@@ -1,0 +1,2 @@
+Nov 09, 2016 2:00:54 PM com.kodiak.qa.test.kodiak.methods.CATCommonMethods closeBrowser
+INFO: Closing Browser for Test Suite
